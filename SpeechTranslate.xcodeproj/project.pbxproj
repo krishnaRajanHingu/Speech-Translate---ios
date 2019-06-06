@@ -14,6 +14,8 @@
 		E80707C922A87F0A00812AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E80707C722A87F0A00812AFA /* LaunchScreen.storyboard */; };
 		E80707D422A87F0A00812AFA /* SpeechTranslateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80707D322A87F0A00812AFA /* SpeechTranslateTests.swift */; };
 		E80707DF22A87F0A00812AFA /* SpeechTranslateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80707DE22A87F0A00812AFA /* SpeechTranslateUITests.swift */; };
+		E80707ED22A8927100812AFA /* GoogleTranslate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80707EC22A8927100812AFA /* GoogleTranslate.swift */; };
+		E80707F322A8B9DE00812AFA /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80707F222A8B9DE00812AFA /* PopupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E80707DA22A87F0A00812AFA /* SpeechTranslateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechTranslateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E80707DE22A87F0A00812AFA /* SpeechTranslateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechTranslateUITests.swift; sourceTree = "<group>"; };
 		E80707E022A87F0A00812AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E80707EC22A8927100812AFA /* GoogleTranslate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleTranslate.swift; sourceTree = "<group>"; };
+		E80707F222A8B9DE00812AFA /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				E80707C522A87F0A00812AFA /* Assets.xcassets */,
 				E80707C722A87F0A00812AFA /* LaunchScreen.storyboard */,
 				E80707CA22A87F0A00812AFA /* Info.plist */,
+				E80707EC22A8927100812AFA /* GoogleTranslate.swift */,
+				E80707F222A8B9DE00812AFA /* PopupViewController.swift */,
 			);
 			path = SpeechTranslate;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E80707ED22A8927100812AFA /* GoogleTranslate.swift in Sources */,
 				E80707C122A87F0800812AFA /* ViewController.swift in Sources */,
 				E80707BF22A87F0800812AFA /* AppDelegate.swift in Sources */,
+				E80707F322A8B9DE00812AFA /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
